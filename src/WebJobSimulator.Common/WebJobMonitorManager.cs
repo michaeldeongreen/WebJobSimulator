@@ -7,6 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 using WebJobSimulator.Common.Interfaces;
+using WebJobSimulator.Domain;
+using WebJobSimulator.Services;
 
 namespace WebJobSimulator.Common
 {
@@ -28,10 +30,12 @@ namespace WebJobSimulator.Common
 
         public static void HandleBlogMonitorElapsedEvent(Object source, ElapsedEventArgs e)
         {
-            using (StreamWriter sw = new StreamWriter(string.Format(@"{0}\simulatorlogger.txt",_path), true))
+            SomeJobService service = new SomeJobService();
+            service.Save(new SomeJob() { Name = "Michael D. Green" });
+           /* using (StreamWriter sw = new StreamWriter(string.Format(@"{0}\simulatorlogger.txt",_path), true))
             {
                 sw.WriteLine(DateTime.Now.ToString());
-            }
+            }*/
         }
     }
 }

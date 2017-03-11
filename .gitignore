@@ -8,3 +8,9 @@
 
 /src/WebJobSimulator.Web/bin
 /src/WebJobSimulator.Web/obj
+
+/src/WebJobSimulator.Domain/bin
+/src/WebJobSimulator.Domain/obj
+
+/src/WebJobSimulator.Services/bin
+/src/WebJobSimulator.Services/obj
