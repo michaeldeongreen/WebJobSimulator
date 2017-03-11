@@ -1,0 +1,24 @@
+1) Had to use a Classic Storage Account
+2) Install this package
+https://www.nuget.org/packages/Microsoft.Azure.WebJobs.Extensions (ignore powershell error for newtonsoft)
+
+3) http://stackoverflow.com/questions/39378734/debug-azure-webjob-locally (just look at POC code)
+
+Scott H. talking about WebJobs
+http://www.hanselman.com/blog/IntroducingWindowsAzureWebJobs.aspx
+
+Queue and Plan Information:
+https://www.schaeflein.net/azure-webjobs-free-tier/
+1) have to have at least Basic or Standard Tier for Plan
+2) Always On in Application Settings for the App Service
+
+I had to manaully start the WebJob under WebJobs in Azure to see errors
+*Complained about Storage Account connection strings
+*Set those in the App Settings in Azure even though they are in the app.settings
+
+FTP:
+webjobber
+JZJ57YYt3qu2QB7s
+
+webjobsimulator
+JZJ57YYt3qu2QB7s

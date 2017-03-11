@@ -1,0 +1,10 @@
+*.user
+
+/src/.vs
+/src/packages
+
+/src/WebJobSimulator.Common/bin
+/src/WebJobSimulator.Common/obj
+
+/src/WebJobSimulator.Web/bin
+/src/WebJobSimulator.Web/obj
