@@ -16,9 +16,14 @@ I had to manaully start the WebJob under WebJobs in Azure to see errors
 *Complained about Storage Account connection strings
 *Set those in the App Settings in Azure even though they are in the app.settings
 
+SQL:
+webjobber
+JZJ57YYt3qu2QB7s
+
 FTP:
 webjobber
 JZJ57YYt3qu2QB7s
 
+FTP:
 webjobsimulator
 JZJ57YYt3qu2QB7s
